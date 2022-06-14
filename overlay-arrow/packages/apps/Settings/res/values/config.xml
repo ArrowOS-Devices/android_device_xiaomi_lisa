@@ -18,4 +18,7 @@
          3 = right side
     -->
     <integer name="config_fingerprintSensorLocation">3</integer>
+
+    <!-- Max network scan search time in seconds -->
+    <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 </resources>
