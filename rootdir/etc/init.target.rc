@@ -35,6 +35,9 @@ import /vendor/etc/init/hw/init.batterysecret.rc
 on early-init
     exec u:r:vendor_modprobe:s0 -- /vendor/bin/vendor_modprobe.sh
     wait /sys/devices/soc0/soc_id
+    
+    # Start audio adsp rpc daemon at early init stage
+    start vendor.audioadsprpcd_audiopd
 
 on init
     # Scheduler uclamp
