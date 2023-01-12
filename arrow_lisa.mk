@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/lisa/device.mk)
 $(call inherit-product, vendor/arrow/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# ArrowOS additions
+DEVICE_MAINTAINER := ALKALiKong
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := arrow_lisa
 PRODUCT_DEVICE := lisa
