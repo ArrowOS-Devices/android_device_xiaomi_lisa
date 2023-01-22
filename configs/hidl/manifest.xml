@@ -587,6 +587,7 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- Xiaomi additions -->
     <hal format="hidl">
         <name>vendor.xiaomi.hardware.campostproc</name>
         <transport>hwbinder</transport>
@@ -595,5 +596,10 @@
             <name>IMiPostProcService</name>
             <instance>default</instance>
         </interface>
+    </hal>
+    <hal format="hidl">
+        <name>android.hardware.media.c2</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.0::IComponentStore/dolby</fqname>
     </hal>
 </manifest>
