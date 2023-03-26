@@ -29,6 +29,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=lisa \
-    PRIVATE_BUILD_DESC="lisa-user 12 SKQ1.211006.001 V13.0.3.0.SKOCNXM release-keys"
+    PRIVATE_BUILD_DESC="lisa-user 13 RKQ1.211001.001 V14.0.6.0.TKOCNXM release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/lisa/lisa:12/SKQ1.211006.001/V13.0.3.0.SKOCNXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/lisa/lisa:13/RKQ1.211001.001/V14.0.6.0.TKOCNXM:user/release-keys
