@@ -11,6 +11,12 @@
     "repository": "ALKALiKong/vendor_xiaomi_lisa-miuicamera",
     "target_path": "vendor/xiaomi/lisa-miuicamera",
     "remote": "gitlab",
-    "branch": "arrow-13.0"
+    "branch": "arrow-13.1"
+  },
+  {
+    "repository"   : "AOSPA/android_hardware_xiaomi",
+    "target_path"  : "hardware/xiaomi",
+    "remote": "github",
+    "branch": "topaz"
   }
 ]
