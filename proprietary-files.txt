@@ -1,4 +1,4 @@
-# Device proprietary files - from lisa MIUI V14.0.6.0.TKOCNXM package, unless pinned
+# Device proprietary files - from lisa MIUI V14.0.10.0.TKOCNXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
