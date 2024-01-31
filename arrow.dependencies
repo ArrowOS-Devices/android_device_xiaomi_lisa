@@ -13,9 +13,9 @@
     "remote": "arrow-gitlab"
   },
   {
-    "repository"   : "AOSPA/android_hardware_xiaomi",
+    "repository"   : "ArrowOS-Devices/android_hardware_xiaomi",
     "target_path"  : "hardware/xiaomi",
     "remote": "github",
-    "branch": "topaz"
+    "branch": "arrow-13.1"
   }
 ]
